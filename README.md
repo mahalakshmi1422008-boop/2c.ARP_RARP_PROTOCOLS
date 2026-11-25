@@ -50,7 +50,7 @@ while True:
     mac = address.get(ip, "Not Found")
     c.send(mac.encode())
 ```
-## OUPUT - ARP
+## OUTPUT - ARP
 <img width="1921" height="1082" alt="image" src="https://github.com/user-attachments/assets/4bfa2347-69c7-4798-8b0a-5019e2359562" />
 
 ## PROGRAM - RARP
@@ -87,7 +87,7 @@ while True:
     ip = address.get(mac, "Not Found")
     c.send(ip.encode())
 ```
-## OUPUT -RARP
+## OUTPUT -RARP
 <img width="1921" height="1082" alt="image" src="https://github.com/user-attachments/assets/cb5ee9c9-70da-4abd-8571-3a92916a5234" />
 
 ## RESULT
